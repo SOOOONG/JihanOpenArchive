@@ -2,6 +2,8 @@
 title: Your first seed
 ---
 
+> [cat doc](/_notes/animals/cats.md)
+> 
 ### Welcome!
 
 This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
@@ -17,13 +19,16 @@ To link to another note, you can use multiple syntaxes. The following four use t
 
 You can organize notes in subdirectories and link them normally. For example, the links above all point to the `_notes/animals/cats.md` file. Here's another example: [[tigers]].
 
-Non-latin languages are supported too: [[안녕하세요]].
+Non-latin languages are supported too: [[aliasname|안녕하세요]].
 
 Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the `your-first-note.md` file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].
 
 In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].
 
 Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: [this is a Markdown link to the note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
+
+> what if no `{: .internal-link}`?
+> [this is a Markdown link to the note about cats](/cats)
 
 Since the Web is all about HTML, you can always use plain HTML if you want, like this: <a class="internal-link" href="/cats">This is a link to the note about cats with HTML</a>.
 
