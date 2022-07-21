@@ -3,7 +3,7 @@ title: Your first seed
 ---
 
 > [cat doc](/animals/cats.md)
-> 
+
 ### Welcome!
 
 This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
@@ -27,9 +27,11 @@ In all cases, if the double-bracket link does not point to a valid note, the dou
 
 Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: [this is a Markdown link to the note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
 
-> what if no `{: .internal-link}`?
-> [this is a Markdown link to the note about cats](cats)
-> **works in `Netlify.app` but no in `Obsidian`**
+> what if no `{: .internal-link}`?  
+> works fine but no stylized.
+> 
+> [this is a Markdown link to the note about cats](cats)  
+> \[]() no backslash in parenthesis() works in both Netlify and Obsidian.
 
 Since the Web is all about HTML, you can always use plain HTML if you want, like this: <a class="internal-link" href="/cats">This is a link to the note about cats with HTML</a>.
 
